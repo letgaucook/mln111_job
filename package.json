@@ -1,0 +1,24 @@
+{
+  "name": "survival-quiz",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test shared/rules.test.ts",
+    "check-content": "node --experimental-strip-types scripts/check-content.ts",
+    "typecheck": "tsc --noEmit",
+    "images": "node scripts/optimize-images.mjs"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "sharp": "^0.35.5",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}

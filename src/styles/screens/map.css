@@ -1,0 +1,101 @@
+.map { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+
+.next { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-color: rgb(245 185 66 / .35); }
+.next__title { margin: 0 0 .2em; }
+.next .muted { margin: 0; }
+.next--boss { border-color: rgb(239 91 91 / .45); }
+
+/* ---------- Tuyến tàu: dải ngang kéo được ---------- */
+.line-wrap {
+  --stop-w: 272px;      /* bề ngang mỗi ga */
+  --media-h: 268px;     /* vùng chứa ảnh — đường ray đi qua giữa vùng này */
+  --img: 220px;         /* cỡ ảnh ga thường */
+  position: relative;
+  margin-inline: calc(50% - 50vw);       /* tràn hết bề ngang màn hình */
+}
+.line {
+  list-style: none; margin: 0; padding: 8px 48px 20px;
+  position: relative;
+  display: flex;
+  overflow-x: auto; overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin; scrollbar-color: var(--rail) transparent;
+  cursor: grab;
+  outline: none;
+}
+.line:focus-visible { box-shadow: inset 0 0 0 2px var(--accent); border-radius: var(--radius); }
+.line.is-dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+.line.is-dragging .stop__link { pointer-events: none; }
+
+/* Mép mờ hai bên báo hiệu còn nội dung để kéo (mask: trong suốt thật, hợp với nền ảnh) */
+.line-wrap { --fade: 64px; --fade-l: var(--fade); --fade-r: var(--fade); }
+.line-wrap.at-start { --fade-l: 0px; }
+.line-wrap.at-end { --fade-r: 0px; }
+.line {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
+}
+
+.stop { flex: 0 0 var(--stop-w); position: relative; scroll-snap-align: center; }
+/* Đường ray: mỗi ga vẽ một đoạn, đoạn đầu/cuối chỉ nửa */
+.stop::before {
+  content: ''; position: absolute; left: 0; right: 0; top: calc(var(--media-h) / 2 - 3px); height: 6px;
+  background: repeating-linear-gradient(90deg, var(--rail) 0 12px, transparent 12px 20px);
+}
+.stop:first-child::before { left: 50%; }
+.stop:last-child::before { right: 50%; }
+.stop--done::before, .stop--done + .stop--current::before { background: repeating-linear-gradient(90deg, rgb(76 195 138 / .7) 0 12px, transparent 12px 20px); }
+
+.stop__link {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 10px;
+  text-align: center; color: inherit; text-decoration: none; padding: 0 8px; border-radius: var(--radius);
+}
+.stop__media { height: var(--media-h); display: grid; place-items: center; }
+.line .porthole { --size: var(--img); border-width: 6px; transition: transform .25s var(--ease); }
+a.stop__link:hover .porthole { transform: scale(1.05); }
+a.stop__link:hover .stop__title { color: var(--accent); }
+.stop__text { display: grid; gap: 2px; min-width: 0; }
+.stop__title { font-weight: 700; font-size: 1.05rem; }
+.stop__topic {
+  color: var(--text-dim); font-size: .85rem;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.stop__badge { color: var(--accent); font-size: .75rem; font-weight: 700; }
+
+.stop--done .porthole { border-color: var(--success); }
+.stop--locked { opacity: .5; }
+.stop--locked .porthole img { filter: grayscale(1) brightness(.6); }
+.stop--current .porthole { --size: calc(var(--img) + 28px); border-color: var(--accent); animation: beacon 2s ease-in-out infinite; }
+.stop--current .stop__title { color: var(--accent); }
+.stop--boss .porthole { --size: calc(var(--img) + 28px); border-color: var(--danger); }
+.stop--boss.stop--current .porthole { animation-name: beacon-red; }
+.stop--boss .stop__title { color: var(--danger); }
+@keyframes beacon { 50% { box-shadow: 0 0 0 8px rgb(245 185 66 / .22), 0 0 32px rgb(245 185 66 / .5); } }
+@keyframes beacon-red { 50% { box-shadow: 0 0 0 8px rgb(239 91 91 / .22), 0 0 32px rgb(239 91 91 / .5); } }
+
+/* Nút cuộn ‹ › */
+.line__nav {
+  position: absolute; z-index: 2; top: calc(8px + var(--media-h) / 2 - 22px);
+  width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--surface-2); color: var(--text); border: 1px solid var(--rail);
+  font-size: 1.5rem; line-height: 1; cursor: pointer; box-shadow: var(--shadow);
+  transition: opacity .2s, background .15s;
+}
+.line__nav:hover { background: var(--rail); }
+.line__nav:disabled { opacity: 0; pointer-events: none; }
+.line__nav--prev { left: 8px; }
+.line__nav--next { right: 8px; }
+.line-hint { margin: -8px 0 0; text-align: center; font-size: .8rem; }
+
+@media (max-width: 600px) {
+  .line-wrap { --stop-w: 220px; --media-h: 218px; --img: 172px; }
+  .line { padding-inline: 24px; }
+  .line__nav { display: none; }   /* trên điện thoại vuốt là đủ */
+  .line-wrap { --fade: 28px; }
+}
+
+@media (max-width: 480px) {
+  .next { flex-direction: column; align-items: stretch; }
+}

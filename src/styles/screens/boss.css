@@ -1,0 +1,45 @@
+body.is-boss { --veil-top: .8; --veil-bottom: .95; }
+/* Tông đỏ phủ lên nền khi đối mặt boss */
+body.is-boss::after {
+  content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(900px 520px at 50% -10%, rgb(239 91 91 / .22), transparent 65%);
+}
+body.is-boss .ambient.is-on { opacity: .4; }
+.boss { max-width: 820px; margin: 0 auto; display: grid; gap: 22px; }
+.boss__head {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 20px;
+  padding: 20px; border-radius: var(--radius);
+  background: linear-gradient(180deg, rgb(239 91 91 / .08), transparent), var(--surface);
+  border: 1px solid rgb(239 91 91 / .35);
+}
+.boss__title { color: var(--danger); margin-bottom: .2em; }
+.boss__info .muted { font-size: .9rem; }
+
+.bossbar { display: flex; gap: 5px; margin-top: 6px; }
+.bossbar__seg {
+  flex: 1; height: 12px; border-radius: 3px;
+  background: linear-gradient(180deg, #ff8080, var(--danger));
+  box-shadow: 0 0 10px rgb(239 91 91 / .5);
+  transition: background .4s, box-shadow .4s, transform .4s var(--ease);
+}
+.bossbar__seg--gone { background: var(--rail); box-shadow: none; transform: scaleY(.6); }
+
+.clock {
+  font: 800 clamp(2rem, 7vw, 3rem)/1 var(--font-head);
+  font-variant-numeric: tabular-nums;
+  padding: 12px 18px; border-radius: var(--radius-sm);
+  background: var(--bg-deep); border: 1px solid var(--rail);
+  text-align: center;
+}
+.clock--warn { color: var(--danger); border-color: var(--danger); animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 0 0 4px rgb(239 91 91 / .25); } }
+
+.boss__main { background: var(--surface); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
+.boss__main .eyebrow { color: var(--danger); }
+
+@media (max-width: 680px) {
+  .boss__head { grid-template-columns: auto 1fr; }
+  .boss__head .porthole { --size: 72px; border-width: 4px; }
+  .clock { grid-column: 1 / -1; }
+  .boss__main { padding: 20px; }
+}

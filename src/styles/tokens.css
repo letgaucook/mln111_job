@@ -1,0 +1,27 @@
+/* Design tokens — hướng "Tuyến tàu tri thức". Theme sáng sau này: đổi bộ token này. */
+:root {
+  --bg:        #0f1424;   /* xanh đêm */
+  --bg-deep:   #090c17;
+  --surface:   #1a2138;
+  --surface-2: #232b47;
+  --text:      #eef1f8;
+  --text-dim:  #a3abc4;
+  --accent:    #f5b942;   /* vàng đèn tàu — ga hiện tại, nút chính */
+  --accent-ink:#1a1405;
+  --success:   #4cc38a;
+  --danger:    #ef5b5b;   /* tim, sai, boss */
+  --teal:      #4fb8b2;
+  --rail:      #3a4466;
+  --radius:    14px;
+  --radius-sm: 10px;
+  --font-head: 'Be Vietnam Pro', system-ui, sans-serif;  /* 700–800 */
+  --font-body: 'Be Vietnam Pro', system-ui, sans-serif;  /* 400–500 */
+
+  --gutter: 16px;
+  --maxw: 1080px;
+  --shadow: 0 10px 30px -12px rgb(0 0 0 / .6);
+  --focus: 0 0 0 3px var(--bg), 0 0 0 5px var(--accent);
+  --ease: cubic-bezier(.2, .8, .2, 1);
+
+  color-scheme: dark;
+}

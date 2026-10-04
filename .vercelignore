@@ -1,0 +1,5 @@
+# Không tải lên Vercel: ảnh gốc (đã có bản WebP trong public/images), tài liệu nguồn, file build/local
+art/
+*.pdf
+dist/
+.env*.local

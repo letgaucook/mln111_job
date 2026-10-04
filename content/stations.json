@@ -1,0 +1,1253 @@
+{
+  "version": 3,
+  "stations": [
+    {
+      "id": 1,
+      "title": "Ga Khởi Nguồn",
+      "topic": "Chương 1 · Triết học là gì?",
+      "story": "Tàu rời sân ga đầu tiên lúc nửa đêm. Bên đống lửa trại cổ xưa, con người lần đầu tự hỏi: thế giới từ đâu mà có, và ta là ai trong đó?",
+      "badge": "Ngọn Lửa Đầu Tiên",
+      "image": "station-1.webp",
+      "questions": [
+        {
+          "id": "s1q1",
+          "text": "Triết học ra đời vào khoảng thời gian nào, ở đâu?",
+          "options": [
+            "Thế kỷ VIII – VI TCN, ở Ấn Độ, Trung Quốc, Hy Lạp",
+            "Thế kỷ XV – XVI, ở Ý, Pháp, Anh và Hà Lan",
+            "Thế kỷ III – I TCN, ở La Mã, Ai Cập, Ba Tư",
+            "Thế kỷ XVII – XVIII, ở Anh, Pháp và Đức"
+          ],
+          "answer": 0,
+          "explain": "Triết học xuất hiện gần như đồng thời ở các trung tâm văn minh cổ đại: Ấn Độ, Trung Quốc và Hy Lạp, khoảng thế kỷ VIII – VI TCN."
+        },
+        {
+          "id": "s1q2",
+          "text": "Triết học ra đời từ hai nguồn gốc nào?",
+          "options": [
+            "Nguồn gốc kinh tế và nguồn gốc chính trị",
+            "Nguồn gốc nhận thức và nguồn gốc xã hội",
+            "Nguồn gốc tôn giáo và nguồn gốc thần thoại",
+            "Nguồn gốc tự nhiên và nguồn gốc sinh học"
+          ],
+          "answer": 1,
+          "explain": "Nhận thức: tư duy trừu tượng phát triển. Xã hội: phân công lao động trí óc / chân tay, xuất hiện giai cấp."
+        },
+        {
+          "id": "s1q3",
+          "text": "Thuật ngữ Hy Lạp “philosophia” có nghĩa là gì?",
+          "options": [
+            "Chiêm ngưỡng con đường suy ngẫm",
+            "Hiểu biết sâu sắc về đạo lý",
+            "Yêu mến sự thông thái",
+            "Nghiên cứu quy luật của con số"
+          ],
+          "answer": 2,
+          "explain": "“Philosophia” = yêu mến sự thông thái. Trung Quốc: “triết” là trí, hiểu biết sâu sắc; Ấn Độ: “darśana” là chiêm ngưỡng, con đường suy ngẫm."
+        },
+        {
+          "id": "s1q4",
+          "text": "Thuật ngữ “darśana” trong triết học Ấn Độ có nghĩa là gì?",
+          "options": [
+            "Yêu mến sự thông thái",
+            "Trí tuệ, hiểu biết sâu sắc",
+            "Luật lệ vận hành của vũ trụ",
+            "Chiêm ngưỡng, con đường suy ngẫm"
+          ],
+          "answer": 3,
+          "explain": "Với người Ấn Độ, triết học (darśana) là sự chiêm ngưỡng, con đường suy ngẫm để dẫn dắt con người đến lẽ phải."
+        },
+        {
+          "id": "s1q5",
+          "text": "Theo giáo trình, triết học là gì?",
+          "options": [
+            "Hệ thống quan điểm lý luận chung nhất về thế giới và con người",
+            "Khoa học về quy luật riêng của từng lĩnh vực tự nhiên và xã hội",
+            "Tập hợp niềm tin tôn giáo về nguồn gốc, số phận của thế giới",
+            "Môn học về chuẩn mực đạo đức, lối sống của con người"
+          ],
+          "answer": 0,
+          "explain": "Triết học còn là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy."
+        },
+        {
+          "id": "s1q6",
+          "text": "Ở Tây Âu thời Trung cổ, triết học bị coi là gì?",
+          "options": [
+            "“Khoa học của mọi khoa học”",
+            "“Nô lệ của thần học”",
+            "“Hạt nhân lý luận của thế giới quan”",
+            "“Vũ khí lý luận của giai cấp vô sản”"
+          ],
+          "answer": 1,
+          "explain": "Hy Lạp cổ đại: “khoa học của mọi khoa học”. Trung cổ Tây Âu: “nô lệ của thần học”. Từ thế kỷ XV – XVI, các khoa học cụ thể tách dần khỏi triết học."
+        },
+        {
+          "id": "s1q7",
+          "text": "Thế giới quan gồm những yếu tố nào?",
+          "options": [
+            "Cảm xúc, ý chí và trí nhớ",
+            "Kinh tế, chính trị và văn hóa",
+            "Tri thức, niềm tin và lý tưởng",
+            "Ngôn ngữ, chữ viết và nghệ thuật"
+          ],
+          "answer": 2,
+          "explain": "Trong đó tri thức là cơ sở trực tiếp hình thành thế giới quan."
+        },
+        {
+          "id": "s1q8",
+          "text": "Ba hình thức cơ bản của thế giới quan là gì?",
+          "options": [
+            "Khoa học, nghệ thuật và đạo đức",
+            "Duy vật, duy tâm và nhị nguyên",
+            "Cảm tính, lý tính và thực tiễn",
+            "Thần thoại, tôn giáo và triết học"
+          ],
+          "answer": 3,
+          "explain": "Trong ba hình thức đó, triết học là hạt nhân lý luận của thế giới quan."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ga Ngã Ba",
+      "topic": "Chương 1 · Vấn đề cơ bản của triết học",
+      "story": "Đường ray tách làm hai trong sương mù. Một biển chỉ đường cũ kỹ hỏi: “Vật chất hay ý thức — cái nào đi trước?” Chọn sai, tàu sẽ lạc lối.",
+      "badge": "Biển Chỉ Đường",
+      "image": "station-2.webp",
+      "questions": [
+        {
+          "id": "s2q1",
+          "text": "Theo Ăngghen, vấn đề cơ bản lớn của mọi triết học là quan hệ giữa gì?",
+          "options": [
+            "Con người với xã hội (cá nhân và cộng đồng)",
+            "Tư duy với tồn tại (ý thức với vật chất)",
+            "Lý luận với thực tiễn (nhận thức và hành động)",
+            "Tự nhiên với xã hội (giới tự nhiên và loài người)"
+          ],
+          "answer": 1,
+          "explain": "Ăngghen: vấn đề cơ bản lớn của mọi triết học, đặc biệt triết học hiện đại, là quan hệ giữa tư duy với tồn tại."
+        },
+        {
+          "id": "s2q2",
+          "text": "Mặt thứ nhất (bản thể luận) của vấn đề cơ bản trả lời câu hỏi nào?",
+          "options": [
+            "Con người có khả năng nhận thức được thế giới hay không",
+            "Xã hội loài người vận động, phát triển theo quy luật nào",
+            "Vật chất và ý thức, cái nào có trước, cái nào quyết định",
+            "Con người sinh ra để làm gì và nên sống như thế nào"
+          ],
+          "answer": 2,
+          "explain": "Cách trả lời mặt thứ nhất chia các nhà triết học thành chủ nghĩa duy vật và chủ nghĩa duy tâm."
+        },
+        {
+          "id": "s2q3",
+          "text": "Hume và Kant gắn với quan điểm nào về khả năng nhận thức?",
+          "options": [
+            "Khả tri luận",
+            "Duy vật biện chứng",
+            "Duy vật chất phác",
+            "Bất khả tri luận"
+          ],
+          "answer": 3,
+          "explain": "Mặt thứ hai: con người có nhận thức được thế giới không → khả tri luận / bất khả tri luận (Hume, Kant). Hoài nghi luận nghi ngờ tri thức."
+        },
+        {
+          "id": "s2q4",
+          "text": "Chủ nghĩa duy vật đã trải qua ba hình thức theo thứ tự nào?",
+          "options": [
+            "Chất phác → siêu hình → biện chứng",
+            "Siêu hình → chất phác → biện chứng",
+            "Biện chứng → siêu hình → chất phác",
+            "Chất phác → biện chứng → siêu hình"
+          ],
+          "answer": 0,
+          "explain": "Chất phác (cổ đại) → siêu hình (thế kỷ XV – XVIII, đỉnh cao XVII – XVIII) → biện chứng (Mác – Ăngghen, Lênin phát triển)."
+        },
+        {
+          "id": "s2q5",
+          "text": "Berkeley và Hume là đại biểu của trường phái nào?",
+          "options": [
+            "Chủ nghĩa duy tâm khách quan",
+            "Chủ nghĩa duy tâm chủ quan",
+            "Chủ nghĩa duy vật siêu hình",
+            "Chủ nghĩa duy vật chất phác"
+          ],
+          "answer": 1,
+          "explain": "Duy tâm chủ quan coi ý thức cá nhân là tính thứ nhất."
+        },
+        {
+          "id": "s2q6",
+          "text": "Platon và Hegel là đại biểu của trường phái nào?",
+          "options": [
+            "Chủ nghĩa duy tâm chủ quan",
+            "Chủ nghĩa duy vật biện chứng",
+            "Chủ nghĩa duy tâm khách quan",
+            "Nhị nguyên luận"
+          ],
+          "answer": 2,
+          "explain": "Duy tâm khách quan coi một thực thể tinh thần khách quan — “ý niệm” (Platon), “tinh thần tuyệt đối” (Hegel) — là tính thứ nhất."
+        },
+        {
+          "id": "s2q7",
+          "text": "Descartes, người coi vật chất và tinh thần là hai thực thể song song, theo quan điểm nào?",
+          "options": [
+            "Nhất nguyên luận duy vật",
+            "Đa nguyên luận",
+            "Bất khả tri luận",
+            "Nhị nguyên luận"
+          ],
+          "answer": 3,
+          "explain": "Nhất nguyên luận thừa nhận một khởi nguyên; nhị nguyên luận (Descartes) thừa nhận hai; đa nguyên luận thừa nhận nhiều khởi nguyên."
+        },
+        {
+          "id": "s2q8",
+          "text": "Phương pháp siêu hình xem xét sự vật như thế nào?",
+          "options": [
+            "Cô lập, tĩnh tại; biến đổi chỉ là tăng giảm về lượng",
+            "Trong mối liên hệ phổ biến, vận động và phát triển",
+            "Qua cảm giác trực tiếp, không cần đến tư duy",
+            "Theo niềm tin tôn giáo và kinh điển có sẵn"
+          ],
+          "answer": 0,
+          "explain": "Với siêu hình, nếu có biến đổi thì chỉ là tăng giảm về lượng và nguyên nhân nằm bên ngoài sự vật."
+        },
+        {
+          "id": "s2q9",
+          "text": "Ba hình thức của phép biện chứng theo thứ tự lịch sử là gì?",
+          "options": [
+            "Duy tâm cổ điển Đức → chất phác cổ đại → duy vật",
+            "Chất phác cổ đại → duy tâm cổ điển Đức → duy vật",
+            "Siêu hình cận đại → duy tâm cổ điển Đức → duy vật",
+            "Chất phác cổ đại → duy vật → duy tâm cổ điển Đức"
+          ],
+          "answer": 1,
+          "explain": "Chất phác cổ đại (Heraclitus, Lão Tử, Phật giáo) → duy tâm cổ điển Đức (đỉnh cao Hegel) → duy vật (Mác – Ăngghen)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ga Thế Kỷ XIX",
+      "topic": "Chương 1 · Sự ra đời của triết học Mác – Lênin",
+      "story": "Khói nhà máy phủ kín sân ga, tiếng máy dệt rền vang. Giữa thời đại công nghiệp và những cuộc khởi nghĩa công nhân, một học thuyết mới ra đời.",
+      "badge": "Bánh Răng Lịch Sử",
+      "image": "station-3.webp",
+      "questions": [
+        {
+          "id": "s3q1",
+          "text": "Ba phong trào công nhân tiêu biểu trước khi triết học Mác ra đời là gì?",
+          "options": [
+            "Công xã Pari, Cách mạng tháng Mười, khởi nghĩa Lyon",
+            "Cách mạng Pháp 1789, Cách mạng Anh 1640, khởi nghĩa Xilêdi",
+            "Khởi nghĩa Lyon, phong trào Hiến chương, khởi nghĩa Xilêdi",
+            "Phong trào Hiến chương, Công xã Pari, Cách mạng Nga 1905"
+          ],
+          "answer": 2,
+          "explain": "Khởi nghĩa công nhân Lyon (Pháp, 1831 và 1834), phong trào Hiến chương (Anh, 1835 – 1848), khởi nghĩa thợ dệt Xilêdi (Đức, 1844)."
+        },
+        {
+          "id": "s3q2",
+          "text": "Phong trào Hiến chương diễn ra ở đâu, khi nào?",
+          "options": [
+            "Ở Pháp, 1831 và 1834",
+            "Ở Đức, năm 1844",
+            "Ở Nga, 1905 – 1907",
+            "Ở Anh, 1835 – 1848"
+          ],
+          "answer": 3,
+          "explain": "Lyon là ở Pháp (1831, 1834); Xilêdi ở Đức (1844); Hiến chương ở Anh (1835 – 1848)."
+        },
+        {
+          "id": "s3q3",
+          "text": "Kinh tế chính trị cổ điển Anh — một nguồn gốc lý luận của chủ nghĩa Mác — gắn với ai?",
+          "options": [
+            "A. Smith và D. Ricardo",
+            "Saint-Simon và Fourier",
+            "Hegel và Feuerbach",
+            "Berkeley và Hume"
+          ],
+          "answer": 0,
+          "explain": "Ba nguồn gốc lý luận: triết học cổ điển Đức (Hegel, Feuerbach), kinh tế chính trị cổ điển Anh (A. Smith, D. Ricardo), CNXH không tưởng Pháp (Saint-Simon, Fourier, R. Owen)."
+        },
+        {
+          "id": "s3q4",
+          "text": "Ba tiền đề khoa học tự nhiên của triết học Mác là gì?",
+          "options": [
+            "Thuyết tương đối, cơ học lượng tử và cấu trúc ADN",
+            "Bảo toàn năng lượng, học thuyết tế bào, thuyết tiến hóa",
+            "Vạn vật hấp dẫn, thuyết nhật tâm và thuyết nguyên tử",
+            "Bảng tuần hoàn, thuyết điện từ và thuyết vụ nổ lớn"
+          ],
+          "answer": 1,
+          "explain": "Định luật bảo toàn và chuyển hóa năng lượng, học thuyết tế bào, thuyết tiến hóa của Darwin."
+        },
+        {
+          "id": "s3q5",
+          "text": "Giai đoạn 1844 – 1848 trong sự hình thành triết học Mác có đặc điểm gì?",
+          "options": [
+            "Chuyển từ duy tâm sang duy vật, cộng sản",
+            "Bổ sung và phát triển toàn diện học thuyết",
+            "Mác – Ăngghen đề xuất các nguyên lý cơ bản",
+            "Lênin bảo vệ học thuyết trước chủ nghĩa đế quốc"
+          ],
+          "answer": 2,
+          "explain": "1841 – 1844: chuyển từ duy tâm, dân chủ cách mạng sang duy vật, cộng sản; 1844 – 1848: đề xuất các nguyên lý cơ bản; 1848 – 1895: bổ sung, phát triển."
+        },
+        {
+          "id": "s3q6",
+          "text": "“Tuyên ngôn của Đảng Cộng sản” ra đời năm nào?",
+          "options": [
+            "1844",
+            "1867",
+            "1878",
+            "1848"
+          ],
+          "answer": 3,
+          "explain": "1844: Bản thảo kinh tế – triết học; 1848: Tuyên ngôn của Đảng Cộng sản; 1867: Tư bản (tập 1); 1878: Chống Đuyrinh."
+        },
+        {
+          "id": "s3q7",
+          "text": "Thực chất cuộc cách mạng trong triết học do Mác – Ăngghen thực hiện là gì?",
+          "options": [
+            "Thống nhất CNDV với phép biện chứng, sáng tạo CNDV lịch sử",
+            "Phục hồi chủ nghĩa duy vật siêu hình thế kỷ XVIII",
+            "Hoàn thiện phép biện chứng duy tâm của Hegel",
+            "Tách hẳn triết học khỏi các khoa học cụ thể"
+          ],
+          "answer": 0,
+          "explain": "Ngoài ra triết học trở thành vũ khí lý luận của giai cấp vô sản và gắn khăng khít với các khoa học cụ thể."
+        },
+        {
+          "id": "s3q8",
+          "text": "Định nghĩa vật chất của Lênin nằm trong tác phẩm nào?",
+          "options": [
+            "Bút ký triết học (viết 1914 – 1916)",
+            "CNDV và chủ nghĩa kinh nghiệm phê phán (1908)",
+            "Nhà nước và cách mạng (1917)",
+            "Sáng kiến vĩ đại (1919)"
+          ],
+          "answer": 1,
+          "explain": "Tác phẩm viết năm 1908, xuất bản 1909. Bút ký triết học viết 1914 – 1916."
+        },
+        {
+          "id": "s3q9",
+          "text": "Triết học Mác – Lênin có hai chức năng cơ bản nào?",
+          "options": [
+            "Chức năng nhận thức thế giới và chức năng giáo dục",
+            "Chức năng dự báo tương lai và chức năng tổ chức",
+            "Chức năng thế giới quan và chức năng phương pháp luận",
+            "Chức năng phê phán cái cũ và chức năng xây dựng"
+          ],
+          "answer": 2,
+          "explain": "Triết học Mác – Lênin là thế giới quan và phương pháp luận khoa học, cách mạng của giai cấp công nhân và nhân dân lao động."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ga Vật Chất",
+      "topic": "Chương 2 · Vật chất và vận động",
+      "story": "Ga này xây bằng đá, nước, lửa và bánh răng — mỗi lớp tường là một quan niệm về vật chất qua các thời đại. Tất cả đều đang chuyển động.",
+      "badge": "Viên Đá Vật Chất",
+      "image": "station-4.webp",
+      "questions": [
+        {
+          "id": "s4q1",
+          "text": "Nhà triết học cổ đại Thales đồng nhất vật chất với gì?",
+          "options": [
+            "Lửa",
+            "Không khí",
+            "Nguyên tử",
+            "Nước"
+          ],
+          "answer": 3,
+          "explain": "Thales: nước; Anaximenes: không khí; Heraclitus: lửa; Democritus: nguyên tử."
+        },
+        {
+          "id": "s4q2",
+          "text": "Ai coi nguyên tử là thực thể đầu tiên cấu tạo nên thế giới?",
+          "options": [
+            "Democritus",
+            "Thales",
+            "Anaximenes",
+            "Heraclitus"
+          ],
+          "answer": 0,
+          "explain": "Quan niệm cổ đại đồng nhất vật chất với một dạng vật thể cụ thể; Democritus chọn nguyên tử."
+        },
+        {
+          "id": "s4q3",
+          "text": "Thế kỷ XVII – XVIII, quan niệm siêu hình, máy móc đồng nhất vật chất với gì?",
+          "options": [
+            "Năng lượng",
+            "Khối lượng",
+            "Trường điện từ",
+            "Cảm giác của con người"
+          ],
+          "answer": 1,
+          "explain": "Quan niệm này bị lung lay khi các phát minh cuối XIX – đầu XX gây ra “khủng hoảng vật lý”."
+        },
+        {
+          "id": "s4q4",
+          "text": "Những phát minh nào cuối thế kỷ XIX – đầu XX gây ra “khủng hoảng vật lý”?",
+          "options": [
+            "Vạn vật hấp dẫn, quang phổ, điện từ",
+            "Học thuyết tế bào, tiến hóa, di truyền",
+            "Tia X, hiện tượng phóng xạ, điện tử",
+            "Thuyết tương đối, lượng tử, ADN"
+          ],
+          "answer": 2,
+          "explain": "Tia X (Roentgen, 1895), phóng xạ (Becquerel, 1896), điện tử (Thomson, 1897), khối lượng điện tử thay đổi theo vận tốc (Kaufmann, 1901)."
+        },
+        {
+          "id": "s4q5",
+          "text": "Theo Lênin, vật chất là gì?",
+          "options": [
+            "Tổng số các vật thể cụ thể mà giác quan con người cảm nhận được",
+            "Khối lượng của các vật thể, có thể cân đo bằng dụng cụ khoa học",
+            "Một dạng tồn tại khác của ý niệm tuyệt đối trong giới tự nhiên",
+            "Phạm trù triết học chỉ thực tại khách quan, không lệ thuộc cảm giác"
+          ],
+          "answer": 3,
+          "explain": "“…thực tại khách quan được đem lại cho con người trong cảm giác, được cảm giác chép lại, chụp lại, phản ánh và tồn tại không lệ thuộc vào cảm giác.”"
+        },
+        {
+          "id": "s4q6",
+          "text": "Thuộc tính cơ bản nhất của vật chất là gì?",
+          "options": [
+            "Tồn tại khách quan",
+            "Có khối lượng",
+            "Có cấu trúc nguyên tử",
+            "Có thể cân đo được"
+          ],
+          "answer": 0,
+          "explain": "Tồn tại khách quan — độc lập với ý thức con người — là thuộc tính cơ bản nhất để phân biệt vật chất với ý thức."
+        },
+        {
+          "id": "s4q7",
+          "text": "Phương thức tồn tại của vật chất là gì?",
+          "options": [
+            "Không gian",
+            "Vận động",
+            "Thời gian",
+            "Đứng im"
+          ],
+          "answer": 1,
+          "explain": "Vận động là phương thức tồn tại; không gian (3 chiều) và thời gian (1 chiều) là hình thức tồn tại của vật chất."
+        },
+        {
+          "id": "s4q8",
+          "text": "Ăngghen chia năm hình thức vận động theo thứ tự từ thấp đến cao nào?",
+          "options": [
+            "Vật lý, cơ học, sinh học, hóa học, xã hội",
+            "Cơ học, hóa học, vật lý, xã hội, sinh học",
+            "Cơ học, vật lý, hóa học, sinh học, xã hội",
+            "Hóa học, cơ học, vật lý, sinh học, xã hội"
+          ],
+          "answer": 2,
+          "explain": "Hình thức cao bao hàm hình thức thấp nhưng không quy được về hình thức thấp."
+        },
+        {
+          "id": "s4q9",
+          "text": "Quan hệ giữa vận động và đứng im là gì?",
+          "options": [
+            "Đứng im là tuyệt đối; vận động là tương đối, tạm thời",
+            "Cả vận động và đứng im đều là tuyệt đối như nhau",
+            "Cả vận động và đứng im đều chỉ là tương đối",
+            "Vận động là tuyệt đối; đứng im là tương đối, tạm thời"
+          ],
+          "answer": 3,
+          "explain": "Vận động là phương thức tồn tại của vật chất nên tuyệt đối; đứng im chỉ là trạng thái tương đối, tạm thời."
+        },
+        {
+          "id": "s4q10",
+          "text": "Tính thống nhất thực sự của thế giới là ở đâu?",
+          "options": [
+            "Ở tính vật chất của nó",
+            "Ở sự tồn tại của nó",
+            "Ở ý niệm tuyệt đối",
+            "Ở ý thức con người"
+          ],
+          "answer": 0,
+          "explain": "Thế giới thống nhất ở tính vật chất, không phải ở sự tồn tại chung chung."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ga Ý Niệm",
+      "topic": "Chương 2 · Ý thức và quan hệ vật chất – ý thức",
+      "story": "Sân ga chìm trong ánh nến. Bóng chiếc ghế hắt lên tường thành một cung điện khổng lồ — ý thức phản ánh thế giới, nhưng không phải là chính thế giới.",
+      "badge": "Ngọn Nến Ý Thức",
+      "image": "station-5.webp",
+      "questions": [
+        {
+          "id": "s5q1",
+          "text": "Nguồn gốc tự nhiên của ý thức là gì?",
+          "options": [
+            "Bộ óc người và sự tác động của thế giới khách quan",
+            "Lao động và ngôn ngữ trong hoạt động sản xuất xã hội",
+            "Sự giáo dục của gia đình, nhà trường và xã hội",
+            "Một năng lực tinh thần bẩm sinh do tạo hóa ban cho"
+          ],
+          "answer": 0,
+          "explain": "Phản ánh là thuộc tính chung của mọi dạng vật chất; ý thức là hình thức phản ánh cao nhất, của bộ óc người."
+        },
+        {
+          "id": "s5q2",
+          "text": "Nguồn gốc xã hội — quyết định trực tiếp sự ra đời của ý thức — là gì?",
+          "options": [
+            "Bộ óc và thế giới khách quan",
+            "Lao động và ngôn ngữ",
+            "Gia đình và nhà trường",
+            "Tôn giáo và nghệ thuật"
+          ],
+          "answer": 1,
+          "explain": "Ăngghen: trước hết là lao động, sau lao động và đồng thời với lao động là ngôn ngữ."
+        },
+        {
+          "id": "s5q3",
+          "text": "Theo Ăngghen, thứ tự vai trò của lao động và ngôn ngữ là thế nào?",
+          "options": [
+            "Trước hết là ngôn ngữ; sau và đồng thời với ngôn ngữ là lao động",
+            "Lao động và ngôn ngữ xuất hiện độc lập, không liên quan gì nhau",
+            "Trước hết là lao động; sau và đồng thời với lao động là ngôn ngữ",
+            "Ngôn ngữ có trước hàng triệu năm rồi mới xuất hiện lao động"
+          ],
+          "answer": 2,
+          "explain": "Lao động là nhân tố đầu tiên; ngôn ngữ ra đời trong và cùng với lao động."
+        },
+        {
+          "id": "s5q4",
+          "text": "Bản chất của ý thức là gì?",
+          "options": [
+            "Bản sao thụ động, y nguyên của sự vật",
+            "Thực thể tinh thần tồn tại độc lập",
+            "Sản phẩm thuần túy sinh học của não",
+            "Hình ảnh chủ quan của thế giới khách quan"
+          ],
+          "answer": 3,
+          "explain": "Ý thức là sự phản ánh tích cực, sáng tạo và mang bản chất xã hội."
+        },
+        {
+          "id": "s5q5",
+          "text": "Trong kết cấu ý thức (tri thức, tình cảm, ý chí), yếu tố nào quan trọng nhất?",
+          "options": [
+            "Tri thức",
+            "Tình cảm",
+            "Ý chí",
+            "Niềm tin"
+          ],
+          "answer": 0,
+          "explain": "Tri thức là yếu tố quan trọng nhất, là phương thức tồn tại của ý thức."
+        },
+        {
+          "id": "s5q6",
+          "text": "Kết cấu theo chiều sâu của ý thức gồm những gì?",
+          "options": [
+            "Tri thức, tình cảm, ý chí",
+            "Tự ý thức, tiềm thức, vô thức",
+            "Cảm giác, tri giác, biểu tượng",
+            "Khái niệm, phán đoán, suy luận"
+          ],
+          "answer": 1,
+          "explain": "Theo các yếu tố: tri thức, tình cảm, ý chí. Theo chiều sâu: tự ý thức, tiềm thức, vô thức."
+        },
+        {
+          "id": "s5q7",
+          "text": "Máy móc, trí tuệ nhân tạo có ý thức như con người không?",
+          "options": [
+            "Có, khi đủ dữ liệu chúng có ý thức đầy đủ",
+            "Có, vì chúng cũng phản ánh được thế giới",
+            "Không, chúng không có ý thức như con người",
+            "Có, nếu được lập trình cảm xúc như người"
+          ],
+          "answer": 2,
+          "explain": "Ý thức mang bản chất xã hội, gắn với lao động và ngôn ngữ của con người; máy móc chỉ mô phỏng một số chức năng."
+        },
+        {
+          "id": "s5q8",
+          "text": "Quan hệ giữa vật chất và ý thức được hiểu thế nào?",
+          "options": [
+            "Ý thức quyết định vật chất; vật chất chỉ là biểu hiện của ý thức",
+            "Hai yếu tố song song, độc lập, không tác động lẫn nhau",
+            "Vật chất quyết định ý thức; ý thức không tác động trở lại",
+            "Vật chất quyết định ý thức; ý thức tác động trở lại qua thực tiễn"
+          ],
+          "answer": 3,
+          "explain": "Vật chất quyết định nguồn gốc, nội dung, bản chất, sự vận động của ý thức; ý thức tác động lại vật chất thông qua hoạt động thực tiễn."
+        },
+        {
+          "id": "s5q9",
+          "text": "Ý nghĩa phương pháp luận của quan hệ vật chất – ý thức đòi hỏi chống những gì?",
+          "options": [
+            "Chống chủ quan duy ý chí và thái độ thụ động, trông chờ",
+            "Chống mọi sự sáng tạo vượt ra ngoài kinh nghiệm cũ đã có",
+            "Chống việc tôn trọng các quy luật khách quan của tự nhiên",
+            "Chống việc học tập tri thức khoa học của nước ngoài"
+          ],
+          "answer": 0,
+          "explain": "Phải xuất phát từ thực tế khách quan, tôn trọng khách quan, đồng thời phát huy tính năng động chủ quan."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ga Kính Lúp",
+      "topic": "Chương 2 · Hai nguyên lý và sáu cặp phạm trù",
+      "story": "Ngoài ô kính, mọi vật đứng yên và rời rạc. Nhìn qua kính lúp, những sợi chỉ sáng hiện ra nối mọi thứ với nhau — không gì tồn tại cô lập.",
+      "badge": "Chiếc Kính Lúp",
+      "image": "station-6.webp",
+      "questions": [
+        {
+          "id": "s6q1",
+          "text": "Theo Ăngghen, phép biện chứng là gì?",
+          "options": [
+            "Nghệ thuật tranh luận để tìm ra mâu thuẫn trong lập luận",
+            "Khoa học về quy luật phổ biến của sự vận động, phát triển",
+            "Phương pháp xem xét sự vật cô lập, tĩnh tại",
+            "Học thuyết về sự tự vận động của ý niệm tuyệt đối"
+          ],
+          "answer": 1,
+          "explain": "“…những quy luật phổ biến của sự vận động và phát triển của tự nhiên, xã hội loài người và tư duy.”"
+        },
+        {
+          "id": "s6q2",
+          "text": "Phân biệt biện chứng khách quan và biện chứng chủ quan thế nào?",
+          "options": [
+            "Khách quan là của tư duy; chủ quan là biện chứng của thế giới",
+            "Khách quan là duy vật; chủ quan là duy tâm",
+            "Khách quan là biện chứng của thế giới; chủ quan là của tư duy",
+            "Khách quan là của tự nhiên; chủ quan là của xã hội"
+          ],
+          "answer": 2,
+          "explain": "Biện chứng chủ quan (của tư duy) là sự phản ánh biện chứng khách quan (của thế giới)."
+        },
+        {
+          "id": "s6q3",
+          "text": "Hai nguyên lý của phép biện chứng duy vật là gì?",
+          "options": [
+            "Lượng – chất và phủ định của phủ định",
+            "Vật chất quyết định và ý thức tác động",
+            "Lý luận gắn liền với thực tiễn",
+            "Mối liên hệ phổ biến và sự phát triển"
+          ],
+          "answer": 3,
+          "explain": "Hai nguyên lý là cơ sở; ba quy luật và sáu cặp phạm trù cụ thể hóa chúng."
+        },
+        {
+          "id": "s6q4",
+          "text": "Nguyên lý về mối liên hệ phổ biến là cơ sở của quan điểm nào?",
+          "options": [
+            "Quan điểm toàn diện và quan điểm lịch sử – cụ thể",
+            "Quan điểm phát triển và quan điểm kế thừa",
+            "Quan điểm thực tiễn và quan điểm quần chúng",
+            "Quan điểm giai cấp và quan điểm dân tộc"
+          ],
+          "answer": 0,
+          "explain": "Mối liên hệ có tính khách quan, phổ biến, đa dạng phong phú → quan điểm toàn diện và lịch sử – cụ thể."
+        },
+        {
+          "id": "s6q5",
+          "text": "Theo phép biện chứng duy vật, phát triển là gì?",
+          "options": [
+            "Mọi sự thay đổi vị trí của sự vật trong không gian",
+            "Vận động từ thấp đến cao, từ kém hoàn thiện đến hoàn thiện",
+            "Sự tăng giảm thuần túy về lượng của sự vật",
+            "Sự lặp lại theo vòng tròn khép kín, không có cái mới"
+          ],
+          "answer": 1,
+          "explain": "Phát triển có tính khách quan, phổ biến, kế thừa, đa dạng phong phú → quan điểm phát triển."
+        },
+        {
+          "id": "s6q6",
+          "text": "Cặp nào thuộc sáu cặp phạm trù cơ bản?",
+          "options": [
+            "Vật chất – ý thức",
+            "Lượng – chất",
+            "Bản chất – hiện tượng",
+            "Lý luận – thực tiễn"
+          ],
+          "answer": 2,
+          "explain": "Sáu cặp: cái riêng – cái chung, nguyên nhân – kết quả, tất nhiên – ngẫu nhiên, nội dung – hình thức, bản chất – hiện tượng, khả năng – hiện thực."
+        },
+        {
+          "id": "s6q7",
+          "text": "Phạm trù “cái đơn nhất” được xét cùng cặp phạm trù nào?",
+          "options": [
+            "Nội dung – hình thức",
+            "Khả năng – hiện thực",
+            "Tất nhiên – ngẫu nhiên",
+            "Cái riêng – cái chung"
+          ],
+          "answer": 3,
+          "explain": "Cặp cái riêng – cái chung được xét cùng cái đơn nhất."
+        },
+        {
+          "id": "s6q8",
+          "text": "Phạm trù nào tạo thành cặp với “khả năng”?",
+          "options": [
+            "Hiện thực",
+            "Ngẫu nhiên",
+            "Kết quả",
+            "Hình thức"
+          ],
+          "answer": 0,
+          "explain": "Các cặp: tất nhiên – ngẫu nhiên, nguyên nhân – kết quả, nội dung – hình thức, khả năng – hiện thực."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ga Dòng Sông",
+      "topic": "Chương 2 · Ba quy luật cơ bản",
+      "story": "Tàu chạy dọc dòng sông không bao giờ đứng yên. Từng giọt nước tích lại thành con sóng; con sóng cũ mất đi để sóng mới hình thành.",
+      "badge": "Giọt Nước Heraclit",
+      "image": "station-7.webp",
+      "questions": [
+        {
+          "id": "s7q1",
+          "text": "Quy luật nào chỉ ra cách thức của sự phát triển?",
+          "options": [
+            "Quy luật mâu thuẫn",
+            "Quy luật phủ định của phủ định",
+            "Quy luật lượng – chất",
+            "Quy luật QHSX phù hợp LLSX"
+          ],
+          "answer": 2,
+          "explain": "Lượng – chất: cách thức; mâu thuẫn: nguồn gốc, động lực; phủ định của phủ định: khuynh hướng."
+        },
+        {
+          "id": "s7q2",
+          "text": "“Độ” trong quy luật lượng – chất là gì?",
+          "options": [
+            "Thời điểm lượng đổi làm chất đổi",
+            "Sự chuyển hóa từ chất cũ sang chất mới",
+            "Tổng hợp mọi thuộc tính của sự vật",
+            "Giới hạn trong đó lượng đổi chưa làm chất đổi"
+          ],
+          "answer": 3,
+          "explain": "Điểm nút là thời điểm lượng đổi đủ làm chất đổi; bước nhảy là sự chuyển hóa về chất."
+        },
+        {
+          "id": "s7q3",
+          "text": "Bước nhảy được phân loại thế nào?",
+          "options": [
+            "Toàn bộ / cục bộ; đột biến / dần dần",
+            "Bên trong / bên ngoài; cơ bản / không cơ bản",
+            "Chủ yếu / thứ yếu; đối kháng / không đối kháng",
+            "Cảm tính / lý tính; kinh nghiệm / lý luận"
+          ],
+          "answer": 0,
+          "explain": "Các cặp còn lại là cách phân loại mâu thuẫn hoặc phân loại nhận thức."
+        },
+        {
+          "id": "s7q4",
+          "text": "Quy luật nào được coi là “hạt nhân” của phép biện chứng?",
+          "options": [
+            "Chuyển hóa từ những thay đổi về lượng thành chất",
+            "Thống nhất và đấu tranh của các mặt đối lập",
+            "Phủ định của phủ định theo đường xoáy ốc",
+            "Nguyên lý về mối liên hệ phổ biến"
+          ],
+          "answer": 1,
+          "explain": "Quy luật mâu thuẫn chỉ ra nguồn gốc, động lực của sự phát triển nên là hạt nhân của phép biện chứng."
+        },
+        {
+          "id": "s7q5",
+          "text": "Quy luật mâu thuẫn chỉ ra điều gì về sự phát triển?",
+          "options": [
+            "Cách thức của sự phát triển",
+            "Khuynh hướng của sự phát triển",
+            "Nguồn gốc, động lực của sự phát triển",
+            "Hình thức xoáy ốc của phát triển"
+          ],
+          "answer": 2,
+          "explain": "Mâu thuẫn — sự đấu tranh của các mặt đối lập — là nguồn gốc, động lực bên trong của phát triển."
+        },
+        {
+          "id": "s7q6",
+          "text": "Quan hệ giữa thống nhất và đấu tranh của các mặt đối lập là gì?",
+          "options": [
+            "Thống nhất là tuyệt đối, đấu tranh là tương đối",
+            "Cả thống nhất và đấu tranh đều tuyệt đối",
+            "Cả thống nhất và đấu tranh đều tương đối",
+            "Thống nhất là tương đối, đấu tranh là tuyệt đối"
+          ],
+          "answer": 3,
+          "explain": "Sự thống nhất chỉ tạm thời; đấu tranh diễn ra liên tục, thúc đẩy sự vật biến đổi."
+        },
+        {
+          "id": "s7q7",
+          "text": "Cặp nào là một cách phân loại mâu thuẫn?",
+          "options": [
+            "Chủ yếu / thứ yếu",
+            "Toàn bộ / cục bộ",
+            "Cảm tính / lý tính",
+            "Tất nhiên / ngẫu nhiên"
+          ],
+          "answer": 0,
+          "explain": "Mâu thuẫn chia thành: bên trong / bên ngoài, cơ bản / không cơ bản, chủ yếu / thứ yếu, đối kháng / không đối kháng."
+        },
+        {
+          "id": "s7q8",
+          "text": "Quy luật phủ định của phủ định chỉ ra điều gì?",
+          "options": [
+            "Nguồn gốc và động lực của phát triển",
+            "Khuynh hướng phát triển theo đường xoáy ốc",
+            "Cách thức tích lũy về lượng để đổi chất",
+            "Sự lặp lại y nguyên của cái cũ"
+          ],
+          "answer": 1,
+          "explain": "Phát triển đi theo đường xoáy ốc: dường như lặp lại cái cũ nhưng ở trình độ cao hơn."
+        },
+        {
+          "id": "s7q9",
+          "text": "Phủ định biện chứng có những tính chất nào?",
+          "options": [
+            "Tính chủ quan và tính tuyệt đối",
+            "Tính ngẫu nhiên và tính loại bỏ",
+            "Tính khách quan và tính kế thừa",
+            "Tính tạm thời và tính phá hủy"
+          ],
+          "answer": 2,
+          "explain": "Phủ định biện chứng là tự phủ định, giữ lại yếu tố tích cực của cái cũ — khác với phủ định siêu hình (xóa bỏ hoàn toàn)."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ga La Bàn",
+      "topic": "Chương 2 · Lý luận nhận thức",
+      "story": "Trên bàn toa có một chiếc la bàn ba kim: sách, ngọn lửa và ngôi sao. Kim chỉ hướng chỉ đúng khi được thực tiễn kiểm nghiệm.",
+      "badge": "La Bàn Chân Lý",
+      "image": "station-8.webp",
+      "questions": [
+        {
+          "id": "s8q1",
+          "text": "Thực tiễn là gì?",
+          "options": [
+            "Mọi hoạt động tinh thần, suy nghĩ, tưởng tượng của con người về thế giới xung quanh",
+            "Kinh nghiệm cá nhân tích lũy được qua cuộc sống hằng ngày của mỗi người",
+            "Hoạt động bản năng của con người nhằm thích nghi với môi trường sống",
+            "Hoạt động vật chất có mục đích, mang tính lịch sử – xã hội, cải biến thế giới"
+          ],
+          "answer": 3,
+          "explain": "Thực tiễn là toàn bộ hoạt động vật chất có mục đích của con người nhằm cải biến tự nhiên và xã hội."
+        },
+        {
+          "id": "s8q2",
+          "text": "Hình thức thực tiễn cơ bản nhất là gì?",
+          "options": [
+            "Sản xuất vật chất",
+            "Chính trị – xã hội",
+            "Thực nghiệm khoa học",
+            "Giáo dục – đào tạo"
+          ],
+          "answer": 0,
+          "explain": "Ba hình thức cơ bản: sản xuất vật chất (cơ bản nhất), chính trị – xã hội, thực nghiệm khoa học."
+        },
+        {
+          "id": "s8q3",
+          "text": "Thực tiễn có vai trò gì đối với nhận thức?",
+          "options": [
+            "Chỉ là nơi minh họa cho những gì lý luận đã chứng minh",
+            "Cơ sở, động lực, mục đích của nhận thức và tiêu chuẩn của chân lý",
+            "Là kết quả cuối cùng, không ảnh hưởng đến quá trình nhận thức",
+            "Là yếu tố phụ, đứng sau trực giác và niềm tin cá nhân"
+          ],
+          "answer": 1,
+          "explain": "Thực tiễn vừa là cơ sở, động lực, mục đích của nhận thức, vừa là tiêu chuẩn kiểm nghiệm chân lý."
+        },
+        {
+          "id": "s8q4",
+          "text": "Con đường biện chứng của nhận thức theo Lênin là gì?",
+          "options": [
+            "Từ tư duy trừu tượng đến trực quan sinh động, rồi đến thực tiễn",
+            "Từ thực tiễn đến niềm tin, rồi từ niềm tin đến lý tưởng",
+            "Từ trực quan sinh động đến tư duy trừu tượng, rồi đến thực tiễn",
+            "Từ khái niệm đến cảm giác, rồi từ cảm giác đến thực tiễn"
+          ],
+          "answer": 2,
+          "explain": "“Từ trực quan sinh động đến tư duy trừu tượng, và từ tư duy trừu tượng đến thực tiễn.”"
+        },
+        {
+          "id": "s8q5",
+          "text": "Nhận thức cảm tính gồm những hình thức nào?",
+          "options": [
+            "Khái niệm → phán đoán → suy luận",
+            "Tự ý thức → tiềm thức → vô thức",
+            "Tri thức → niềm tin → lý tưởng",
+            "Cảm giác → tri giác → biểu tượng"
+          ],
+          "answer": 3,
+          "explain": "Nhận thức cảm tính: cảm giác → tri giác → biểu tượng."
+        },
+        {
+          "id": "s8q6",
+          "text": "Nhận thức lý tính gồm những hình thức nào?",
+          "options": [
+            "Khái niệm → phán đoán → suy luận",
+            "Cảm giác → tri giác → biểu tượng",
+            "Quan sát → giả thuyết → thí nghiệm",
+            "Tri thức → tình cảm → ý chí"
+          ],
+          "answer": 0,
+          "explain": "Suy luận gồm quy nạp và diễn dịch."
+        },
+        {
+          "id": "s8q7",
+          "text": "Chân lý là gì?",
+          "options": [
+            "Tri thức được số đông người trong xã hội thừa nhận",
+            "Tri thức phù hợp hiện thực, được thực tiễn kiểm nghiệm",
+            "Tri thức mang lại lợi ích cho người sử dụng nó",
+            "Tri thức do các nhà khoa học có uy tín đưa ra"
+          ],
+          "answer": 1,
+          "explain": "Tiêu chuẩn của chân lý là thực tiễn, không phải số đông, lợi ích hay uy tín."
+        },
+        {
+          "id": "s8q8",
+          "text": "Chân lý có những tính chất nào?",
+          "options": [
+            "Chủ quan, bất biến, vĩnh cửu, trừu tượng",
+            "Khách quan, bất biến, tuyệt đối, chung chung",
+            "Khách quan, tương đối, tuyệt đối, cụ thể",
+            "Chủ quan, tương đối, ngẫu nhiên, cụ thể"
+          ],
+          "answer": 2,
+          "explain": "“Chân lý luôn luôn là cụ thể.”"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Ga Thời Đại",
+      "topic": "Chương 3 · Hình thái kinh tế – xã hội",
+      "story": "Đồng hồ trên sân ga điểm qua từng thời đại: công xã, nô lệ, phong kiến, tư bản… Bánh xe lịch sử quay theo quy luật của sản xuất.",
+      "badge": "Đồng Hồ Lịch Sử",
+      "image": "station-9.webp",
+      "questions": [
+        {
+          "id": "s9q1",
+          "text": "Cơ sở của sự tồn tại và phát triển xã hội là gì?",
+          "options": [
+            "Sản xuất vật chất",
+            "Sản xuất tinh thần",
+            "Đấu tranh giai cấp",
+            "Hoạt động của nhà nước"
+          ],
+          "answer": 0,
+          "explain": "Có ba loại sản xuất: vật chất, tinh thần và sản xuất ra bản thân con người; sản xuất vật chất là cơ sở."
+        },
+        {
+          "id": "s9q2",
+          "text": "Phương thức sản xuất là sự thống nhất giữa những yếu tố nào?",
+          "options": [
+            "Cơ sở hạ tầng và kiến trúc thượng tầng",
+            "Lực lượng sản xuất và quan hệ sản xuất",
+            "Tồn tại xã hội và ý thức xã hội",
+            "Người lao động và tư liệu sản xuất"
+          ],
+          "answer": 1,
+          "explain": "LLSX + QHSX = phương thức sản xuất. Còn người lao động + tư liệu sản xuất = LLSX."
+        },
+        {
+          "id": "s9q3",
+          "text": "Trong lực lượng sản xuất, nhân tố hàng đầu là gì?",
+          "options": [
+            "Công cụ lao động",
+            "Đối tượng lao động",
+            "Người lao động",
+            "Phương tiện lao động"
+          ],
+          "answer": 2,
+          "explain": "Người lao động là nhân tố hàng đầu; công cụ lao động là yếu tố động nhất, cách mạng nhất."
+        },
+        {
+          "id": "s9q4",
+          "text": "Yếu tố động nhất, cách mạng nhất của lực lượng sản xuất là gì?",
+          "options": [
+            "Người lao động",
+            "Đối tượng lao động",
+            "Quan hệ sở hữu",
+            "Công cụ lao động"
+          ],
+          "answer": 3,
+          "explain": "Ngày nay khoa học còn trở thành lực lượng sản xuất trực tiếp."
+        },
+        {
+          "id": "s9q5",
+          "text": "Trong quan hệ sản xuất, quan hệ nào giữ vai trò quyết định?",
+          "options": [
+            "Quan hệ sở hữu tư liệu sản xuất",
+            "Quan hệ tổ chức – quản lý",
+            "Quan hệ phân phối sản phẩm",
+            "Quan hệ trao đổi hàng hóa"
+          ],
+          "answer": 0,
+          "explain": "QHSX gồm: sở hữu tư liệu sản xuất (quyết định), tổ chức – quản lý, phân phối."
+        },
+        {
+          "id": "s9q6",
+          "text": "Nội dung quy luật QHSX phù hợp với trình độ LLSX là gì?",
+          "options": [
+            "QHSX quyết định LLSX; LLSX tác động trở lại QHSX",
+            "LLSX quyết định QHSX; QHSX tác động trở lại LLSX",
+            "LLSX và QHSX phát triển độc lập, không tác động",
+            "LLSX quyết định QHSX; QHSX không tác động trở lại"
+          ],
+          "answer": 1,
+          "explain": "QHSX phù hợp sẽ thúc đẩy, không phù hợp sẽ kìm hãm LLSX."
+        },
+        {
+          "id": "s9q7",
+          "text": "Cơ sở hạ tầng là gì?",
+          "options": [
+            "Hệ thống đường sá, cầu cống, điện nước của xã hội",
+            "Toàn bộ quan điểm chính trị, pháp quyền và thiết chế",
+            "Toàn bộ các QHSX hợp thành cơ cấu kinh tế của xã hội",
+            "Tổng thể lực lượng sản xuất của một quốc gia"
+          ],
+          "answer": 2,
+          "explain": "CSHT gồm QHSX thống trị, tàn dư và mầm mống; không phải “hạ tầng kỹ thuật”."
+        },
+        {
+          "id": "s9q8",
+          "text": "Bộ phận quan trọng nhất của kiến trúc thượng tầng là gì?",
+          "options": [
+            "Đảng phái",
+            "Giáo hội",
+            "Hệ tư tưởng",
+            "Nhà nước"
+          ],
+          "answer": 3,
+          "explain": "CSHT quyết định KTTT; KTTT tác động trở lại CSHT."
+        },
+        {
+          "id": "s9q9",
+          "text": "Năm hình thái kinh tế – xã hội theo thứ tự lịch sử là gì?",
+          "options": [
+            "Cộng sản nguyên thủy → nô lệ → phong kiến → TBCN → cộng sản",
+            "Nô lệ → cộng sản nguyên thủy → phong kiến → TBCN → cộng sản",
+            "Cộng sản nguyên thủy → phong kiến → nô lệ → TBCN → cộng sản",
+            "Cộng sản nguyên thủy → nô lệ → TBCN → phong kiến → cộng sản"
+          ],
+          "answer": 0,
+          "explain": "Sự phát triển các hình thái kinh tế – xã hội là một quá trình lịch sử – tự nhiên."
+        },
+        {
+          "id": "s9q10",
+          "text": "Việt Nam quá độ lên CNXH “bỏ qua chế độ TBCN” nghĩa là gì?",
+          "options": [
+            "Bỏ qua hoàn toàn mọi thành tựu nhân loại đạt được dưới CNTB",
+            "Bỏ qua vị trí thống trị của QHSX, KTTT TBCN, vẫn tiếp thu thành tựu",
+            "Bỏ qua giai đoạn phát triển lực lượng sản xuất hiện đại",
+            "Bỏ qua mọi hình thức kinh tế thị trường và hàng hóa"
+          ],
+          "answer": 1,
+          "explain": "Bỏ qua việc xác lập vị trí thống trị của QHSX và KTTT TBCN, nhưng tiếp thu thành tựu của nhân loại dưới CNTB."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Ga Nhân Loại",
+      "topic": "Chương 3 · Giai cấp, nhà nước, ý thức xã hội và con người",
+      "story": "Ga cuối trước kỳ thi. Chiếc chìa khóa phát sáng trước quả địa cầu — mở ra những câu hỏi về giai cấp, dân tộc, nhà nước và chính con người.",
+      "badge": "Chìa Khóa Nhân Loại",
+      "image": "station-10.webp",
+      "questions": [
+        {
+          "id": "s10q1",
+          "text": "Định nghĩa giai cấp của Lênin nằm trong tác phẩm nào?",
+          "options": [
+            "Nhà nước và cách mạng (1917)",
+            "Sáng kiến vĩ đại (1919)",
+            "Bút ký triết học (1914 – 1916)",
+            "Tuyên ngôn của Đảng Cộng sản (1848)"
+          ],
+          "answer": 1,
+          "explain": "Giai cấp là những tập đoàn người to lớn khác nhau về địa vị trong hệ thống sản xuất, quan hệ với tư liệu sản xuất, vai trò tổ chức lao động và cách thức hưởng thụ."
+        },
+        {
+          "id": "s10q2",
+          "text": "Đặc trưng quyết định của giai cấp là gì?",
+          "options": [
+            "Quy mô hưởng thụ của cải",
+            "Vai trò trong tổ chức lao động",
+            "Quan hệ đối với tư liệu sản xuất",
+            "Địa vị chính trị trong nhà nước"
+          ],
+          "answer": 2,
+          "explain": "Quan hệ đối với tư liệu sản xuất quyết định các đặc trưng còn lại."
+        },
+        {
+          "id": "s10q3",
+          "text": "Nguồn gốc trực tiếp của giai cấp là gì?",
+          "options": [
+            "Sự phân công lao động",
+            "Chiến tranh giữa các bộ lạc",
+            "Sự ra đời của nhà nước",
+            "Chế độ tư hữu"
+          ],
+          "answer": 3,
+          "explain": "Nguồn gốc trực tiếp là chế độ tư hữu; nguồn gốc sâu xa là LLSX phát triển làm xuất hiện “của dư”."
+        },
+        {
+          "id": "s10q4",
+          "text": "Đặc trưng quan trọng nhất của dân tộc là gì?",
+          "options": [
+            "Chung phương thức sinh hoạt kinh tế",
+            "Chung một ngôn ngữ giao tiếp",
+            "Chung một lãnh thổ ổn định",
+            "Chung nền văn hóa – tâm lý"
+          ],
+          "answer": 0,
+          "explain": "Dân tộc có các đặc trưng: chung lãnh thổ, phương thức sinh hoạt kinh tế (quan trọng nhất), ngôn ngữ, văn hóa – tâm lý, nhà nước."
+        },
+        {
+          "id": "s10q5",
+          "text": "Nhà nước ra đời từ đâu?",
+          "options": [
+            "Từ khế ước tự nguyện giữa mọi thành viên xã hội",
+            "Từ mâu thuẫn giai cấp không thể điều hòa được",
+            "Từ ý chí của thượng đế và các đấng thần linh",
+            "Từ nhu cầu quản lý công việc chung của thị tộc"
+          ],
+          "answer": 1,
+          "explain": "Bản chất nhà nước là công cụ thống trị của giai cấp thống trị."
+        },
+        {
+          "id": "s10q6",
+          "text": "Vấn đề cơ bản của mọi cuộc cách mạng xã hội là gì?",
+          "options": [
+            "Vấn đề ruộng đất cho nông dân",
+            "Vấn đề giải phóng dân tộc",
+            "Vấn đề chính quyền nhà nước",
+            "Vấn đề tự do tôn giáo"
+          ],
+          "answer": 2,
+          "explain": "Nguồn gốc sâu xa của cách mạng xã hội là mâu thuẫn giữa LLSX phát triển và QHSX lỗi thời."
+        },
+        {
+          "id": "s10q7",
+          "text": "Trong tồn tại xã hội, yếu tố nào quan trọng nhất?",
+          "options": [
+            "Điều kiện tự nhiên",
+            "Dân số, mật độ dân số",
+            "Hoàn cảnh địa lý",
+            "Phương thức sản xuất"
+          ],
+          "answer": 3,
+          "explain": "Tồn tại xã hội gồm: phương thức sản xuất, điều kiện tự nhiên – hoàn cảnh địa lý, dân số và mật độ dân số."
+        },
+        {
+          "id": "s10q8",
+          "text": "Tính độc lập tương đối của ý thức xã hội thể hiện ở đâu?",
+          "options": [
+            "Thường lạc hậu, có thể vượt trước, có tính kế thừa",
+            "Luôn phản ánh tức thời, đúng nhịp tồn tại xã hội",
+            "Hoàn toàn tách rời, không chịu tồn tại xã hội quyết định",
+            "Chỉ biến đổi khi nhà nước ban hành luật mới"
+          ],
+          "answer": 0,
+          "explain": "Ngoài ra các hình thái ý thức xã hội tác động qua lại và tác động trở lại tồn tại xã hội."
+        },
+        {
+          "id": "s10q9",
+          "text": "Theo Mác (Luận cương về Feuerbach), bản chất con người là gì?",
+          "options": [
+            "Tổng hợp các bản năng sinh học",
+            "Tổng hòa những quan hệ xã hội",
+            "Một linh hồn bất tử do trời ban",
+            "Lý trí thuần túy của mỗi cá nhân"
+          ],
+          "answer": 1,
+          "explain": "“Trong tính hiện thực của nó, bản chất con người là tổng hòa những quan hệ xã hội.” Con người là thực thể tự nhiên – xã hội."
+        },
+        {
+          "id": "s10q10",
+          "text": "Ai là chủ thể sáng tạo chân chính ra lịch sử?",
+          "options": [
+            "Các lãnh tụ kiệt xuất",
+            "Tầng lớp trí thức",
+            "Quần chúng nhân dân",
+            "Giai cấp thống trị"
+          ],
+          "answer": 2,
+          "explain": "Lãnh tụ có vai trò định hướng, tổ chức nhưng không quyết định tiến trình lịch sử."
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "title": "Ga Đề Thi",
+    "timeLimitSec": 300,
+    "image": "boss.webp",
+    "story": "Ga cuối. Quái vật Đề Thi chặn đường với 5 câu hỏi vận dụng cả ba chương. Trả lời hết trước khi đồng hồ điểm 0.",
+    "questions": [
+      {
+        "id": "bossq1",
+        "text": "Một hợp tác xã chỉ trông chờ “mưa thuận gió hòa”, không cải tiến kỹ thuật. Họ vi phạm yêu cầu nào?",
+        "options": [
+          "Tôn trọng quy luật khách quan",
+          "Phát huy tính năng động chủ quan",
+          "Quan điểm lịch sử – cụ thể",
+          "Quan điểm toàn diện"
+        ],
+        "answer": 1,
+        "explain": "Thái độ thụ động, trông chờ là trái với yêu cầu phát huy tính năng động chủ quan (quan hệ vật chất – ý thức)."
+      },
+      {
+        "id": "bossq2",
+        "text": "Học tích lũy kiến thức mỗi ngày rồi đỗ kỳ thi, chuyển sang trình độ mới. Đó là minh họa của quy luật nào?",
+        "options": [
+          "Quy luật mâu thuẫn",
+          "Phủ định của phủ định",
+          "Quy luật lượng – chất",
+          "Quy luật QHSX – LLSX"
+        ],
+        "answer": 2,
+        "explain": "Tích lũy về lượng đến điểm nút (kỳ thi) dẫn tới bước nhảy, tạo chất mới."
+      },
+      {
+        "id": "bossq3",
+        "text": "Hạt lúa → cây lúa → nhiều hạt lúa mới. Đây là ví dụ điển hình của quy luật nào?",
+        "options": [
+          "Quy luật lượng – chất",
+          "Quy luật mâu thuẫn",
+          "Mối liên hệ phổ biến",
+          "Phủ định của phủ định"
+        ],
+        "answer": 3,
+        "explain": "Hai lần phủ định đưa sự vật trở lại “dường như cái cũ” nhưng ở trình độ cao hơn — đường xoáy ốc."
+      },
+      {
+        "id": "bossq4",
+        "text": "Nguồn gốc sâu xa của cách mạng xã hội là gì?",
+        "options": [
+          "Mâu thuẫn giữa LLSX phát triển và QHSX lỗi thời",
+          "Mâu thuẫn giữa các dân tộc và các quốc gia",
+          "Ý chí cá nhân của các lãnh tụ kiệt xuất",
+          "Mâu thuẫn giữa các tôn giáo trong xã hội"
+        ],
+        "answer": 0,
+        "explain": "Khi QHSX lỗi thời kìm hãm LLSX, cách mạng xã hội trở thành tất yếu; vấn đề cơ bản là chính quyền nhà nước."
+      },
+      {
+        "id": "bossq5",
+        "text": "“Tồn tại xã hội quyết định ý thức xã hội” là vận dụng nguyên lý nào vào đời sống xã hội?",
+        "options": [
+          "Ý thức quyết định vật chất",
+          "Vật chất quyết định ý thức",
+          "Mối liên hệ phổ biến",
+          "Phủ định biện chứng"
+        ],
+        "answer": 1,
+        "explain": "Chủ nghĩa duy vật lịch sử mở rộng chủ nghĩa duy vật vào xã hội: đời sống vật chất quyết định đời sống tinh thần."
+      }
+    ]
+  }
+}

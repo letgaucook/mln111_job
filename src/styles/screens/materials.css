@@ -1,0 +1,133 @@
+/* ---------- Sổ tay ôn tập dạng sách lật trang, khổ cố định vừa màn hình ---------- */
+body[data-screen="materials"] #app { padding-top: 16px; padding-bottom: 16px; }
+
+.book {
+  max-width: 820px; margin: 0 auto;
+  height: calc(100vh - 32px);          /* dự phòng trình duyệt cũ */
+  height: calc(100dvh - 32px);         /* vừa khít màn hình → trang không cuộn */
+  display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 14px;
+}
+
+.book__stage {
+  position: relative; min-height: 0;
+  perspective: 2400px;
+  touch-action: pan-y;                 /* vuốt ngang để lật */
+}
+
+/* Một tờ giấy: gáy sách bên trái, mép giấy xếp chồng bên phải. Khổ cố định, nội dung không cuộn. */
+.leaf {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  padding: 30px 40px 20px 52px;
+  border-radius: 6px var(--radius) var(--radius) 6px;
+  background:
+    linear-gradient(90deg, rgb(0 0 0 / .35), rgb(0 0 0 / 0) 26px),   /* bóng gáy sách */
+    linear-gradient(180deg, var(--surface-2), var(--surface));
+  border: 1px solid rgb(255 255 255 / .07);
+  box-shadow:
+    3px 3px 0 -1px #1d2440, 3px 3px 0 0 rgb(255 255 255 / .05),      /* các tờ phía dưới */
+    6px 6px 0 -2px #171d33, 6px 6px 0 -1px rgb(255 255 255 / .04),
+    var(--shadow);
+  transform-origin: left center;
+  backface-visibility: hidden;
+}
+/* Đường gáy đóng sách */
+.leaf::before {
+  content: ''; position: absolute; left: 22px; top: 18px; bottom: 18px; width: 2px;
+  background: repeating-linear-gradient(180deg, rgb(245 185 66 / .35) 0 6px, transparent 6px 14px);
+}
+/* Bóng đổ trên trang khi đang lật */
+.leaf::after {
+  content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(90deg, rgb(0 0 0 / .55), rgb(0 0 0 / .1));
+  opacity: 0;
+}
+.leaf--probe { visibility: hidden; pointer-events: none; z-index: -1; }   /* tờ ẩn dùng để đo khi chia trang */
+.leaf--top { z-index: 2; }
+
+.leaf--turn-out { animation: leaf-out .65s cubic-bezier(.45, .05, .35, 1) forwards; }
+.leaf--turn-out::after { animation: leaf-shade .65s ease-in forwards; }
+.leaf--turn-in { animation: leaf-in .65s cubic-bezier(.45, .05, .35, 1) both; }
+.leaf--turn-in::after { animation: leaf-shade .65s ease-out reverse both; }
+@keyframes leaf-out { to { transform: rotateY(-180deg); } }
+@keyframes leaf-in { from { transform: rotateY(-180deg); } }
+@keyframes leaf-shade { to { opacity: 1; } }
+
+/* Nội dung tờ */
+.leaf__head { flex: none; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px dashed var(--rail); }
+.leaf__head .eyebrow { margin-bottom: .3em; }
+.leaf__head--cover { border-bottom: 0; padding-bottom: 0; }
+.leaf__title { margin: 0; color: var(--accent); font-size: clamp(1.25rem, 3.2vw, 1.65rem); }
+.leaf__booktitle { font-size: clamp(1.5rem, 4.4vw, 2.2rem); line-height: 1.15; margin: 0; }
+.leaf__body { flex: 1; min-height: 0; overflow: hidden; font-size: .98rem; }
+.leaf__body > :first-child { margin-top: 0; }
+/* Danh sách được tách khối để ngắt trang → bỏ khoảng cách giữa các khối cho liền mạch */
+.leaf__body ul, .leaf__body ol { margin: 0; }
+.leaf__body li { margin: 0; padding: .18em 0; }
+.leaf__body ul.cont { list-style: none; }
+.leaf__body ul.cont > li { padding: 0; }
+.leaf__body .cont li > ul, .leaf__body .cont li > ol { margin: 0; }
+.leaf__body .table-wrap { margin: .4em 0 .6em; overflow: hidden; }
+.leaf__foot {
+  flex: none; display: flex; justify-content: space-between; gap: 12px;
+  margin-top: 12px; padding-top: 10px; border-top: 1px solid rgb(255 255 255 / .06);
+  color: var(--text-dim); font-size: .8rem; letter-spacing: .04em;
+}
+
+/* Mục lục */
+.leaf--cover .leaf__body { padding-top: 6px; }
+.toc__chapter + .toc__chapter { margin-top: 12px; }
+.toc__name { margin: 0 0 4px; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+.leaf__body .toc__list { list-style: none; padding: 0; }
+.leaf__body .toc__list li { padding: 0; }
+.toc__item {
+  display: flex; align-items: baseline; gap: 10px; width: 100%;
+  padding: 6px 10px; border: 0; border-radius: 8px; background: transparent;
+  text-align: left; cursor: pointer; color: var(--text); font: inherit;
+}
+.toc__item:hover { background: rgb(255 255 255 / .05); }
+.toc__item:hover .toc__title { color: var(--accent); }
+.toc__title { flex: 1; font-weight: 600; }
+.toc__page { color: var(--text-dim); font-variant-numeric: tabular-nums; font-weight: 700; }
+
+/* Thanh lật trang */
+.book__nav {
+  display: grid; grid-template-columns: auto auto 1fr auto; align-items: center; gap: 12px;
+  padding: 8px 10px;
+  background: rgb(15 20 36 / .88);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--rail); border-radius: 999px;
+  box-shadow: var(--shadow);
+}
+.book__home {
+  display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%;
+  color: var(--text-dim); text-decoration: none; font-size: 1.2rem;
+}
+.book__home:hover { background: var(--surface-2); color: var(--text); }
+.book__btn { min-height: 42px; padding: 8px 18px; font-size: 1.05rem; }
+.book__btn:disabled { opacity: .35; cursor: default; }
+.book__progress { display: grid; gap: 4px; min-width: 0; }
+/* Mỗi đoạn = một trang; khoảng hở lớn hơn giữa các mục */
+.book__bar { display: flex; align-items: center; gap: 2px; }
+.book__seg {
+  flex: 1; min-width: 3px; height: 16px; padding: 5px 0; border: 0; cursor: pointer;
+  background: var(--rail); background-clip: content-box; border-radius: 4px;
+}
+.book__seg--first:not(:first-child) { margin-left: 5px; }
+.book__seg.is-read { background-color: rgb(76 195 138 / .6); }
+.book__seg.is-active { background-color: var(--accent); padding: 3px 0; }
+.book__seg:hover { background-color: var(--text-dim); }
+.book__counter { font-size: .78rem; color: var(--text-dim); text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+@media (max-width: 600px) {
+  body[data-screen="materials"] #app { padding: 10px 12px; }
+  .book { height: calc(100vh - 20px); height: calc(100dvh - 20px); gap: 10px; }
+  .leaf { padding: 20px 16px 14px 30px; }
+  .leaf::before { left: 12px; }
+  .leaf__body { font-size: .93rem; }
+  .book__nav { gap: 6px; padding: 6px; }
+  .book__home { width: 34px; height: 34px; }
+  .book__btn { padding: 8px 14px; }
+  .book__btn-label { display: none; }    /* chỉ giữ ‹ › cho gọn */
+}
